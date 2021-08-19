@@ -38,6 +38,14 @@ header .form{
     width: 50%;
 }
 
+img.logo {
+    max-width: 100px;
+}
+img.logo {
+    width: 50%;
+    padding-right: 8px;
+}
+
 header div.logo{
     padding: 10px;
 }
