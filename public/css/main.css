@@ -5,8 +5,8 @@
 }
 
 body{
-    font-family: 'Roboto';
-    background-color: #ebebeb;
+  font-family: 'Roboto';
+  background-color: #ebebeb;
 }
 
 h3{
@@ -77,7 +77,6 @@ header .form .submit{
 }
 
 div.burger-menu{
-    text-align: center;
     text-align: center;
 }
 
@@ -306,20 +305,12 @@ header nav a:visited{
 }
 
 @media (min-width: 770px){
+    nav{
+        display: inline;
+    }
 
     div.burger-menu {
         display: none;
-    }
-    .products{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    article {
-        display: flex;
-        width:43%;
-        margin: 10px;
     }
 }
 
@@ -332,10 +323,7 @@ header nav a:visited{
     }
 
     header nav ul.lista1 {
-      font-weight: bold;
-    }
-
-    header nav ul.lista1 {
+        font-weight: bold;
         width: 50%;
         list-style-type: none;
         display: flex;
@@ -352,15 +340,12 @@ header nav a:visited{
     }
 
     header nav ul.lista2{
-      font-weight: bold;
-    }
-
-    header nav ul.lista2{
         width: 50%;
         list-style-type: none;
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-end;
+        font-weight: bold;
     }
 
     header nav ul.lista2 li{
