@@ -88,8 +88,9 @@
                 <input type="file" name="avatar">
                 <br>
                 <br>
-                <input type="password" name="pass" placeholder="Elegí tu contraseña">
-                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
+                <input type="password" name="pass" placeholder="Elegí tu contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="La contraseña debe tener una letra en minúscula, una letra en mayúscula, un número y al menos 8 caracteres" required>
+                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                    title="La contraseña debe tener una letra en minúscula, una letra en mayúscula, un número y al menos 8 caracteres" required>
                 <br>
                 <br>
                 <input type="submit" value="Enviar">
